@@ -1,11 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto&family=Roboto+Mono&display=swap');
 
 :root {
-    --branco: white;
-    --cor-de-fundo: #3a0061;
-    --fundo-senha: #881397;
-    --fundo-texto: #881397;
-    --borda: #fffbfb;
+    --branco: rgb(255, 255, 255);
+    --cor-de-fundo: #bb96f8;
+    --fundo-senha: #30023b;
+    --fundo-texto: #d579ff;
+    --borda: #994ecc;
     --roboto: 'Roboto', sans-serif;
     --roboto-mono: 'Roboto Mono', monospace;
 }
