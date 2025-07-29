@@ -14,7 +14,7 @@ botoes[0].onclick = diminuiTamanho;
 botoes[1].onclick = aumentaTamanho;
 
 function diminuiTamanho() {
-    if (tamanhoSenha > 5) {
+    if (tamanhoSenha > 1) {
         // tamanhoSenha = tamanhoSenha-1;
         tamanhoSenha--;
     }
@@ -22,7 +22,7 @@ function diminuiTamanho() {
     geraSenha();
 }
 function aumentaTamanho() {
-    if (tamanhoSenha < 30) {
+    if (tamanhoSenha < 20) {
         // tamanhoSenha = tamanhoSenha+1;
         tamanhoSenha++;
     }
@@ -75,3 +75,8 @@ function classificaSenha(tamanhoAlfabeto) {
     const valorEntropia = document.querySelector('.entropia');
     valorEntropia.textContent = "Um computador pode levar até " + Math.floor(2 ** entropia / (100e6 * 60 * 60 * 24)) + " dias para descobrir essa senha.";
 }
+
+
+
+
+
